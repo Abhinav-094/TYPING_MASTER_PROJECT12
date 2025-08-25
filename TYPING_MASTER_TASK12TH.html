@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/TASK3TYPINGMASTERCSS.css">
+    <script src="JAVASCRIPT/TASK3TYPINGMASTERS.js"></script>
+</head>
+<body>
+    <div id="r_text" >
+    </div>
+
+    <input type="button" value="START" id="start_btn" onclick="startbtn()" disabled>
+
+    <input type="button" value="SUBMIT" id="submit_btn" onclick="Submitbtn()" disabled>
+
+    <input type="number" id="input" onkeyup="check_value()">
+
+     <textarea id="u_text" disabled onkeyup="user_textarea()" oninput="r_input()"></textarea>
+
+    <h1 id="timer"></h1>
+    <div id="time_show">
+            <!-- <h1 id="time">Total time:-</h1> -->
+            <span id="second">Total Seconds:-</span><br><br>
+            <span id="speed"> </span><br><br>
+            <span id="green_msg_show"></span><br><br>
+            <span id="red_msg_show"></span>
+    </div> 
+</body>
+</html>
